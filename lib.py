@@ -1,6 +1,7 @@
 import sys
 import pygame
 from pygame.locals import *
+from clases import *
 
 def tipo_imagen(num):
 
@@ -66,6 +67,7 @@ def ambInicial(entrada):
 		x=0
 
 	pygame.draw.rect(ventana, colorDos, (700,100,100,30),margen)
+	pygame.draw.rect(ventana, colorDos, (700,200,100,30),margen)
 
 	while True:
 	#pintar de X color  el lienzo
@@ -74,4 +76,61 @@ def ambInicial(entrada):
 				pygame.quit()
 				sys.exit()
 		pygame.display.update()
+
+def peso_casilla(x,y,entrada):
+	if int(entrada[y][x])==0 or int(entrada[y][x])==2 or int(entrada[y][x])==3 or int(entrada[y][x])==5:
+		return 1
+	else:	
+		return 7
+
+
+def nodoInicial(entrada):
+	for fila in range(0,10):
+		for columna in range(0,10):
+			#pygame.draw.rect(ventana, color, (x,y,alto,largo),margen)
+			if (int(entrada[fila][columna])==2):
+				nodo_inicial=nodo()
+				nodo_inicial.x=columna
+				nodo_inicial.y=fila
+	return nodo_inicial
+
+def crear_nodo(x,y,entrada,peso_anterior):
+	if(int(entrada[y][x])!=1):
+		n=nodo()
+		n.x=x
+		n.y=y
+		n.peso=peso_casilla(x,y,entrada)+peso_anterior
+		return n
+	else:
+		return False
+
+def expansion_disponible(x,y):
+	if x<0 or x >9 or y<0 or y>9:
+		return False
+	else:
+		return True
+
+def expandirNodo(nodo, entrada):
+	#expArriba
+	if(expansion_disponible(nodo.x,nodo.y-1)):
+		result=crear_nodo(nodo.x,nodo.y-1,entrada,nodo.peso)
+		if(result!=False):
+			nodo.hijos.append(result)
+	#expAbajo
+	if(expansion_disponible(nodo.x,nodo.y+1)):
+		result=crear_nodo(nodo.x,nodo.y+1,entrada,nodo.peso)
+		if(result!=False):
+			nodo.hijos.append(result)
+	#expDerecha
+	if(expansion_disponible(nodo.x+1,nodo.y)):
+		result=crear_nodo(nodo.x+1,nodo.y,entrada,nodo.peso)
+		if(result!=False):
+			nodo.hijos.append(result)
+	#expIzquierda
+	if(expansion_disponible(nodo.x-1,nodo.y)):
+		result=crear_nodo(nodo.x-1,nodo.y,entrada,nodo.peso)
+		if(result!=False):
+			nodo.hijos.append(result)
+
+	
 
