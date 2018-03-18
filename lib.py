@@ -61,6 +61,8 @@ class Interfaz:
 		ventana.fill(color)
 		#definimos nodo inicial donde se encuentra mario
 		self.nodo_inicial=nodo()
+		#definimos nodo inicial donde se encuentra mario
+		self.nodo_meta=nodo()
 
 		for fila in range(0,10):
 			for columna in range(0,10):
@@ -68,10 +70,14 @@ class Interfaz:
 				if int(self.entrada[fila][columna])==0:
 					pygame.draw.rect(ventana, colorDos, (x,y,alto,largo),margen)
 				else:
-					#calcula la posicion del nodo inicial
-					if (int(self.entrada[fila][columna])==2):
+					#calcula la posicion del nodo inicial donde se encuentra mario
+					if (int(self.entrada[fila][columna]) == 2):
 						self.nodo_inicial.x=columna
 						self.nodo_inicial.y=fila
+					#nodo meta donde se encuentra la princesa
+					elif (int(self.entrada[fila][columna]) == 5):
+						self.nodo_meta.x=columna
+						self.nodo_meta.y=fila
 
 					ventana.blit(self.tipo_imagen(int(self.entrada[fila][columna])),(x,y))
 				x=x+60
@@ -79,10 +85,12 @@ class Interfaz:
 			x=0
 
 		pygame.draw.rect(ventana, colorDos, (700,100,100,30),margen)
-		pygame.draw.rect(ventana, colorDos, (700,200,100,30),margen)
+		#pygame.draw.rect(ventana, colorDos, (700,200,100,30),margen)
+		
+		button = pygame.Rect(700,200,100,30)
+		pygame.draw.rect(ventana, [255, 0, 0], button)
 
-		tipo_algoritmo = 1
-		self.calcular(tipo_algoritmo)
+		
 
 		while True:
 		#pintar de X color  el lienzo
@@ -90,13 +98,22 @@ class Interfaz:
 				if evento.type == QUIT:
 					pygame.quit()
 					sys.exit()
+				if evento.type == pygame.MOUSEBUTTONDOWN:
+					mouse_pos = evento.pos  # gets mouse position
+
+					# checks if mouse position is over the button
+					if button.collidepoint(mouse_pos):
+						# prints current location of mouse
+						print('button was pressed at {0}'.format(mouse_pos))
+						tipo_algoritmo = 1
+						self.calcular(tipo_algoritmo)
+
+		                
 			pygame.display.update()
 
 		
 	def calcular(self,tipo_algoritmo):
-
+		
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
-			algoritmo = Preferente_amplitud(self.entrada)
-
-		algoritmo.expandirNodo(self.nodo_inicial)
+			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)

@@ -42,7 +42,7 @@ class Algoritmo:
 			if(result!=False):
 				nodo.hijos.append(result)
 
-
+		return nodo.hijos
 
 	def peso_casilla(self,x,y):
 		if int(self.entrada[y][x])==0 or int(self.entrada[y][x])==2 or int(self.entrada[y][x])==3 or int(self.entrada[y][x])==5:
