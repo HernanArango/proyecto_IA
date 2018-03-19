@@ -1,6 +1,9 @@
 from algoritmo import *
 class Preferente_amplitud(Algoritmo):
+
 	lista_nodos = []
+	camino_final =[]
+	
 	def __init__(self,entrada,nodo_inicial,nodo_meta):
 		Algoritmo.__init__(self,entrada)
 		# agregamos los nuevos atributos
@@ -21,7 +24,13 @@ class Preferente_amplitud(Algoritmo):
 			
 			if self.es_nodo_meta(self.lista_nodos[0]) is True:
 				print "el nodo meta esta ",self.lista_nodos[0].x," ",self.lista_nodos[0].y
+				#Recuperar el camino de llegada
+				self.camino_destino(self.lista_nodos[0],self.nodo_inicial,self.camino_final)
+				#Imprimir el camino:
+				for nodo in self.camino_final:
+					print nodo.x," ",nodo.y
 				break
+
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 			
 			hijos = self.expandirNodo(self.lista_nodos[0])			
