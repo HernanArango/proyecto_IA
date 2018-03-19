@@ -1,11 +1,17 @@
 from clases import nodo
 class Algoritmo:
 	
+	pos_pasada_x = None
+	pos_pasada_y = None
+	tiene_flor = False
+
 	def __init__(self,entrada):
 		self.entrada = entrada
 
 	def crear_nodo(self,x,y,peso_anterior):
-		if(int(self.entrada[y][x])!=1):
+		
+		#crea el nodo si es diferente a muro o tortuga, si es tortuga y tiene flor pasa
+		if int(self.entrada[y][x])!=1 and (int(self.entrada[y][x])!= 4 or self.tiene_flor == True):			
 			n=nodo()
 			n.x=x
 			n.y=y
@@ -15,34 +21,42 @@ class Algoritmo:
 			return False
 
 	def expansion_disponible(self,x,y):
-		if x<0 or x >9 or y<0 or y>9:
+		if x<0 or x >9 or y<0 or y>9 or (x == self.pos_pasada_x and y == self.pos_pasada_y):
 			return False
 		else:
 			return True
 
 	def expandirNodo(self,nodo):
+		hijos = []
+
+		if int(self.entrada[nodo.y][nodo.x]) == 3:
+			self.tiene_flor = True
+			print "TIENE FLOR***********************************"
+		
 		#expArriba
 		if(self.expansion_disponible(nodo.x,nodo.y-1)):
 			result=self.crear_nodo(nodo.x,nodo.y-1,nodo.peso)
 			if(result!=False):
-				nodo.hijos.append(result)
+				hijos.append(result)
 		#expAbajo
 		if(self.expansion_disponible(nodo.x,nodo.y+1)):
 			result=self.crear_nodo(nodo.x,nodo.y+1,nodo.peso)
 			if(result!=False):
-				nodo.hijos.append(result)
+				hijos.append(result)
 		#expDerecha
 		if(self.expansion_disponible(nodo.x+1,nodo.y)):
 			result=self.crear_nodo(nodo.x+1,nodo.y,nodo.peso)
 			if(result!=False):
-				nodo.hijos.append(result)
+				hijos.append(result)
 		#expIzquierda
 		if(self.expansion_disponible(nodo.x-1,nodo.y)):
 			result=self.crear_nodo(nodo.x-1,nodo.y,nodo.peso)
 			if(result!=False):
-				nodo.hijos.append(result)
-
-		return nodo.hijos
+				hijos.append(result)
+		self.pos_pasada_x = nodo.x
+		self.pos_pasada_y = nodo.y
+		print "numero de hijos expandidos ", len(hijos)
+		return hijos
 
 	def peso_casilla(self,x,y):
 		if int(self.entrada[y][x])==0 or int(self.entrada[y][x])==2 or int(self.entrada[y][x])==3 or int(self.entrada[y][x])==5:
