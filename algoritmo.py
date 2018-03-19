@@ -12,6 +12,7 @@ class Algoritmo:
 		
 		#crea el nodo si es diferente a muro o tortuga, si es tortuga y tiene flor pasa
 		if int(self.entrada[y][x])!=1 and (int(self.entrada[y][x])!= 4 or self.tiene_flor == True):			
+		#if int(self.entrada[y][x])!=1:			
 			n=nodo()
 			n.x=x
 			n.y=y

@@ -3,6 +3,7 @@ class Preferente_amplitud(Algoritmo):
 
 	lista_nodos = []
 	camino_final =[]
+	cant_nodos_expandidos=1
 	
 	def __init__(self,entrada,nodo_inicial,nodo_meta):
 		Algoritmo.__init__(self,entrada)
@@ -29,12 +30,19 @@ class Preferente_amplitud(Algoritmo):
 				#Imprimir el camino:
 				for nodo in self.camino_final:
 					print nodo.x," ",nodo.y
+
+				print "Se expandieron un total de", self.cant_nodos_expandidos," nodos"
+				print "El arbol tiene una profundidad de", len(self.camino_final)
 				break
 
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 			
-			hijos = self.expandirNodo(self.lista_nodos[0])			
 			
+			
+			hijos = self.expandirNodo(self.lista_nodos[0])			
+			self.cant_nodos_expandidos=self.cant_nodos_expandidos + len(hijos);
+
+
 			for nodo_hijo in hijos:
 				#agrega cada nodo hijo al final de la lista
 				self.lista_nodos.append(nodo_hijo)
@@ -53,8 +61,7 @@ class Preferente_amplitud(Algoritmo):
 			
 			#print self.lista_nodos
 		print "termino for"
-			
-
+		return
 			
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:
