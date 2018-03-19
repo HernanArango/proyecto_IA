@@ -3,6 +3,7 @@ import pygame
 from pygame.locals import *
 from clases import *
 from Preferente_amplitud import *
+from Costo_uniforme import *
 
 class Interfaz:
 	def tipo_imagen(self,num):
@@ -88,7 +89,9 @@ class Interfaz:
 		#pygame.draw.rect(ventana, colorDos, (700,200,100,30),margen)
 		
 		button = pygame.Rect(700,200,100,30)
+		button2 = pygame.Rect(700,240,100,30)
 		pygame.draw.rect(ventana, [255, 0, 0], button)
+		pygame.draw.rect(ventana, [255, 0, 0], button2)
 
 		
 
@@ -107,6 +110,11 @@ class Interfaz:
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 1
 						self.calcular(tipo_algoritmo)
+					if button2.collidepoint(mouse_pos):
+						# prints current location of mouse
+						print('button was pressed at {0}'.format(mouse_pos))
+						tipo_algoritmo = 2
+						self.calcular(tipo_algoritmo)
 
 		                
 			pygame.display.update()
@@ -117,3 +125,5 @@ class Interfaz:
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
 			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
+		elif tipo_algoritmo == 2:
+			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)

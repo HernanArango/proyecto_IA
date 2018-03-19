@@ -17,7 +17,10 @@ class Algoritmo:
 			n.x=x
 			n.y=y
 			n.padre=nodo_padre
-			n.peso=self.peso_casilla(x,y)+peso_anterior
+			if(self.tiene_flor==False):
+				n.peso=self.peso_casilla(x,y)+peso_anterior
+			else:
+				n.peso=1+peso_anterior
 			return n
 		else:
 			return False
@@ -61,10 +64,10 @@ class Algoritmo:
 		return hijos
 
 	def peso_casilla(self,x,y):
-		if int(self.entrada[y][x])==0 or int(self.entrada[y][x])==2 or int(self.entrada[y][x])==3 or int(self.entrada[y][x])==5:
+		if int(self.entrada[y][x])!=4:
 			return 1
 		else:	
-			return 7
+			return 8
 
 	def camino_destino(self,nodo_final,nodo_raiz,camino):
 		if nodo_final.x==nodo_raiz.x and nodo_final.y==nodo_raiz.y:
