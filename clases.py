@@ -2,7 +2,7 @@ class nodo:
 	x=0
 	y=0
 	peso=0
-	hijos=[]
+	padre=0;
 
 class agent:
 	flor=False
