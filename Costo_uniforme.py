@@ -1,9 +1,6 @@
 from algoritmo import *
 class Costo_uniforme(Algoritmo):
 
-	lista_nodos = []
-	camino_final =[]
-	cant_nodos_expandidos=1
 	
 	def __init__(self,entrada,nodo_inicial,nodo_meta):
 		Algoritmo.__init__(self,entrada)
@@ -23,16 +20,7 @@ class Costo_uniforme(Algoritmo):
 		while True:						
 			index=self.index_nodo_a_expandir()
 			if self.es_nodo_meta(self.lista_nodos[index]) is True:
-				print "el nodo meta esta ",self.lista_nodos[index].x," ",self.lista_nodos[index].y
-				#Recuperar el camino de llegada
-				print "el peso es", self.lista_nodos[index].peso
-				self.camino_destino(self.lista_nodos[index],self.nodo_inicial,self.camino_final)
-				#Imprimir el camino:
-				for nodo in self.camino_final:
-					print nodo.x," ",nodo.y
-
-				print "Se expandieron un total de", self.cant_nodos_expandidos," nodos"
-				print "El arbol tiene una profundidad de", len(self.camino_final)
+				self.resumen(index)
 				break
 
 			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y
@@ -56,13 +44,13 @@ class Costo_uniforme(Algoritmo):
 						
 
 			i = i + 1		
-			if i == 25:
-				break
-				#pass
+			if i == 10:
+				#break
+				pass
 			
 			#print self.lista_nodos
 		print "termino for"
-		return
+		return self.camino_final
 
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:
@@ -71,17 +59,16 @@ class Costo_uniforme(Algoritmo):
 			return False
 
 	def index_nodo_a_expandir(self):
-		flag=self.lista_nodos[0]
+		flag = self.lista_nodos[0]
+		#se busca el menor peso entre los nodos
 		for nodo in self.lista_nodos:
 			if flag.peso > nodo.peso:
-				flag=nodo
+				flag = nodo
 
+		#retornamos el index de dicho nodo
 		return self.lista_nodos.index(flag)
 
-	def mostrar_lista(self):
-		print "--------------------------------------"
-		for x in self.lista_nodos:
-			print "elementos lista nodo ",x.x," ",x.y
+
 
 
 		

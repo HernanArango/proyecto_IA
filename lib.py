@@ -94,10 +94,11 @@ class Interfaz:
 		pygame.draw.rect(ventana, [255, 0, 0], button2)
 
 		
-
+		
 		while True:
 		#pintar de X color  el lienzo
 			for evento in pygame.event.get():
+				camino_final=""
 				if evento.type == QUIT:
 					pygame.quit()
 					sys.exit()
@@ -109,14 +110,23 @@ class Interfaz:
 						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 1
-						self.calcular(tipo_algoritmo)
+						camino_final = self.calcular(tipo_algoritmo)
+						#pintamos el camino escogido por el algoritmo
+						for pos in Preferente_amplitud.camino_final:
+							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
+
 					if button2.collidepoint(mouse_pos):
 						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 2
-						self.calcular(tipo_algoritmo)
-
-		                
+						camino_final = self.calcular(tipo_algoritmo)
+						#pintamos el camino escogido por el algoritmo
+						for pos in Costo_uniforme.camino_final:
+							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
+					
+					
+		            
+		        	#print Preferente_amplitud.camino_final
 			pygame.display.update()
 
 		
@@ -127,3 +137,5 @@ class Interfaz:
 			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
 		elif tipo_algoritmo == 2:
 			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
+
+		return algoritmo

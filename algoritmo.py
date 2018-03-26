@@ -1,11 +1,16 @@
 from clases import nodo
+from time import time
 class Algoritmo:
 	
+	lista_nodos = []
+	camino_final = []
+	cant_nodos_expandidos = 1
 	pos_pasada_x = None
 	pos_pasada_y = None
 	tiene_flor = False
 
 	def __init__(self,entrada):
+		self.tiempo_inicial = time()
 		self.entrada = entrada
 
 	def crear_nodo(self,x,y,peso_anterior,nodo_padre):
@@ -76,4 +81,31 @@ class Algoritmo:
 		else:
 			camino.append(nodo_final)
 			self.camino_destino(nodo_final.padre,nodo_raiz,camino)
+
+	def tiempo_ejecucion(self):
+		return time() - self.tiempo_inicial
+
+
+	def mostrar_lista(self):
+		print "--------------------------------------"
+		for x in self.lista_nodos:
+			print "elementos lista nodo ",x.x," ",x.y
+
+	def resumen(self,index):
+		print "----------------------------------------------------------------"
+		print "el nodo meta esta ",self.lista_nodos[index].x," ",self.lista_nodos[index].y
+		#Recuperar el camino de llegada
+		print "el peso es", self.lista_nodos[index].peso
+		self.camino_destino(self.lista_nodos[index],self.nodo_inicial,self.camino_final)
+		
+		#Imprimir el camino:
+		"""
+		for nodo in self.camino_final:
+			print nodo.x," ",nodo.y
+		"""
+		print "Se expandieron un total de", self.cant_nodos_expandidos," nodos"
+		print "El arbol tiene una profundidad de", len(self.camino_final)
+
+		print "Tiempo de ejecucion ", self.tiempo_ejecucion()
+
 			
