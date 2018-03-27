@@ -85,7 +85,6 @@ class Algoritmo:
 	def tiempo_ejecucion(self):
 		return time() - self.tiempo_inicial
 
-
 	def mostrar_lista(self):
 		print "--------------------------------------"
 		for x in self.lista_nodos:
@@ -97,13 +96,9 @@ class Algoritmo:
 		#Recuperar el camino de llegada
 		print "el peso es", self.lista_nodos[index].peso
 		self.camino_destino(self.lista_nodos[index],self.nodo_inicial,self.camino_final)
-		
-		#Imprimir el camino:
-		"""
-		for nodo in self.camino_final:
-			print nodo.x," ",nodo.y
-		"""
+
 		print "Se expandieron un total de", self.cant_nodos_expandidos," nodos"
+		#CORREGIR!
 		print "El arbol tiene una profundidad de", len(self.camino_final)
 
 		print "Tiempo de ejecucion ", self.tiempo_ejecucion()

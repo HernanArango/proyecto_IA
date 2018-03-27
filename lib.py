@@ -110,23 +110,16 @@ class Interfaz:
 						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 1
-						camino_final = self.calcular(tipo_algoritmo)
-						#pintamos el camino escogido por el algoritmo
-						for pos in Preferente_amplitud.camino_final:
-							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
+						camino = self.calcular(tipo_algoritmo)
+						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		                
 
 					if button2.collidepoint(mouse_pos):
 						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 2
-						camino_final = self.calcular(tipo_algoritmo)
-						#pintamos el camino escogido por el algoritmo
-						for pos in Costo_uniforme.camino_final:
-							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
+						camino = self.calcular(tipo_algoritmo)
+						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		                
 					
-					
-		            
-		        	#print Preferente_amplitud.camino_final
 			pygame.display.update()
 
 		
@@ -135,7 +128,19 @@ class Interfaz:
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
 			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=reversed(algoritmo.camino_final)
+			return camino
 		elif tipo_algoritmo == 2:
 			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=reversed(algoritmo.camino_final)
+			return camino
 
-		return algoritmo
+	def pintar_camino(self,ventana,camino,nodo_inicial,nodo_final):
+		img_camino = pygame.image.load('img/camino.jpg')
+		princesa = pygame.image.load('img/peach.jpg')
+		mario = pygame.image.load('img/mario.png')
+		for nodo in camino:
+			ventana.blit(img_camino,(nodo.x*60,nodo.y*60))
+		ventana.blit(princesa,(nodo_final.x*60,nodo_final.y*60))
+		ventana.blit(mario,(nodo_inicial.x*60,nodo_inicial.y*60))
+

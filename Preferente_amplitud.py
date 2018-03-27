@@ -45,9 +45,6 @@ class Preferente_amplitud(Algoritmo):
 			if i == 100:
 				#break
 				pass
-			
-		
-		return self.camino_final
 		
 			
 	def es_nodo_meta(self,nodo):

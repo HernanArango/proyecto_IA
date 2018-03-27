@@ -47,10 +47,6 @@ class Costo_uniforme(Algoritmo):
 			if i == 10:
 				#break
 				pass
-			
-			#print self.lista_nodos
-		print "termino for"
-		return self.camino_final
 
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:
