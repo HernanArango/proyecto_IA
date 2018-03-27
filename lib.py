@@ -3,6 +3,7 @@ import pygame
 from pygame.locals import *
 from clases import *
 from Preferente_amplitud import *
+from Preferente_profundidad import *
 from Costo_uniforme import *
 
 class Interfaz:
@@ -90,8 +91,10 @@ class Interfaz:
 		
 		button = pygame.Rect(700,200,100,30)
 		button2 = pygame.Rect(700,240,100,30)
+		button3 = pygame.Rect(700,280,100,30)
 		pygame.draw.rect(ventana, [255, 0, 0], button)
 		pygame.draw.rect(ventana, [255, 0, 0], button2)
+		pygame.draw.rect(ventana, [255, 0, 0], button3)
 
 		
 		
@@ -125,6 +128,14 @@ class Interfaz:
 							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
 					
 					
+					if button3.collidepoint(mouse_pos):
+						# prints current location of mouse
+						print('button was pressed at {0}'.format(mouse_pos))
+						tipo_algoritmo = 3
+						camino_final = self.calcular(tipo_algoritmo)
+						#pintamos el camino escogido por el algoritmo
+						for pos in Preferente_profundidad.camino_final:
+							ventana.blit(pygame.image.load('img/mario.png'),(pos.x*60,pos.y*60))
 		            
 		        	#print Preferente_amplitud.camino_final
 			pygame.display.update()
@@ -137,5 +148,7 @@ class Interfaz:
 			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
 		elif tipo_algoritmo == 2:
 			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
+		elif tipo_algoritmo == 3:
+			algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
 
 		return algoritmo
