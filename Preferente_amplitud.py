@@ -39,7 +39,7 @@ class Preferente_amplitud(Algoritmo):
 			self.lista_nodos.pop(0)
 
 			self.mostrar_lista()
-						
+					
 
 			i = i + 1		
 			if i == 100:
