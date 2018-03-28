@@ -41,7 +41,6 @@ class Algoritmo:
 
 		if int(self.entrada[nodo.y][nodo.x]) == 3:
 			self.tiene_flor = True
-			print "TIENE FLOR***********************************"
 		
 		#expArriba
 		if(self.expansion_disponible(nodo.x,nodo.y-1)):
@@ -74,6 +73,8 @@ class Algoritmo:
 		else:	
 			return 8
 
+	#De forma recursiva, almacena en un array los nodos padre desde el nodo meta, hasta el nodo raiz
+	#encontrando asi, el camino que recorrio
 	def camino_destino(self,nodo_final,nodo_raiz,camino):
 		if nodo_final.x==nodo_raiz.x and nodo_final.y==nodo_raiz.y:
 			camino.append(nodo_final)

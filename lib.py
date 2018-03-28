@@ -1,5 +1,7 @@
 import sys
+
 import pygame
+import time as t
 from pygame.locals import *
 from clases import *
 from Preferente_amplitud import *
@@ -42,8 +44,8 @@ class Interfaz:
 		self.leerEntrada(namefile)
 		#init pygame
 		pygame.init()
-		#variables iniciales para creacion de grilla
 
+		#variables iniciales para creacion de grilla
 		color=(255,255,255)#blanco
 		colorDos=pygame.Color(0,0,0)#negro
 		#dimensiones para la grilla
@@ -128,19 +130,30 @@ class Interfaz:
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
 			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
-			camino=reversed(algoritmo.camino_final)
+			camino=list(reversed(algoritmo.camino_final))
 			return camino
 		elif tipo_algoritmo == 2:
 			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
-			camino=reversed(algoritmo.camino_final)
+			camino=list(reversed(algoritmo.camino_final))
 			return camino
 
 	def pintar_camino(self,ventana,camino,nodo_inicial,nodo_final):
+		pygame.mixer.pre_init(44100, -16, 2, 2048)
+		pygame.mixer.init()
+		pygame.mixer.music.load('sound/mario.wav')
+		pygame.mixer.music.play(0)
 		img_camino = pygame.image.load('img/camino.jpg')
-		princesa = pygame.image.load('img/peach.jpg')
+		img_end = pygame.image.load('img/end.png')
 		mario = pygame.image.load('img/mario.png')
 		for nodo in camino:
-			ventana.blit(img_camino,(nodo.x*60,nodo.y*60))
-		ventana.blit(princesa,(nodo_final.x*60,nodo_final.y*60))
-		ventana.blit(mario,(nodo_inicial.x*60,nodo_inicial.y*60))
-
+			pos=camino.index(nodo)
+			if pos != 0:
+				nodo_anterior=camino[pos-1]
+				ventana.blit(img_camino,(nodo_anterior.x*60,nodo_anterior.y*60))
+			ventana.blit(mario,(nodo.x*60,nodo.y*60))
+			pygame.time.wait(250)
+			pygame.display.update()
+		pygame.mixer.music.stop()
+		pygame.mixer.music.load('sound/win.wav')
+		pygame.mixer.music.play(0)
+		ventana.blit(img_end,(nodo_final.x*60,nodo_final.y*60))
