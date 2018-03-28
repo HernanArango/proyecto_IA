@@ -26,8 +26,6 @@ class Preferente_profundidad(Algoritmo):
 
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 
-			print "x",self.nodo_fue_expandido(self.lista_nodos[0].padre,self.lista_nodos[0])
-
 			if self.nodo_fue_expandido(self.lista_nodos[0].padre,self.lista_nodos[0]) == False:
 				hijos = self.expandirNodo(self.lista_nodos[0])
 			else:
@@ -59,15 +57,16 @@ class Preferente_profundidad(Algoritmo):
 	
 	#evita ciclos
 	def nodo_fue_expandido(self,nodo_padre,nodo_a_verificar):
+		#llego a la raiz
 		if isinstance(nodo_padre, int) is True:
+			print "expande es el nodo raiz"
 			return False
-		#si es la raiz
-		if nodo_padre.x == 0 and  nodo_padre.y == 0:
-			return False
-		#si es igua a este nodo padre 
+		#si es igual a algun nodo padre 
 		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y:
+			print "ya se ha expandido no expande"
 			return True
 		else:
+			print "ciclo"
 			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
 			
 
