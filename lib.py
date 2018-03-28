@@ -5,6 +5,7 @@ import time as t
 from pygame.locals import *
 from clases import *
 from Preferente_amplitud import *
+from Preferente_profundidad import *
 from Costo_uniforme import *
 
 class Interfaz:
@@ -92,8 +93,10 @@ class Interfaz:
 		
 		button = pygame.Rect(700,200,100,30)
 		button2 = pygame.Rect(700,240,100,30)
+		button3 = pygame.Rect(700,280,100,30)
 		pygame.draw.rect(ventana, [255, 0, 0], button)
 		pygame.draw.rect(ventana, [255, 0, 0], button2)
+		pygame.draw.rect(ventana, [255, 0, 0], button3)
 
 		
 		
@@ -121,7 +124,16 @@ class Interfaz:
 						tipo_algoritmo = 2
 						camino = self.calcular(tipo_algoritmo)
 						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		                
-					
+
+					if button3.collidepoint(mouse_pos):
+						# prints current location of mouse
+						print('button was pressed at {0}'.format(mouse_pos))
+						tipo_algoritmo = 3
+						camino = self.calcular(tipo_algoritmo)
+						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)	
+		            
+		        	
+
 			pygame.display.update()
 
 		
@@ -134,6 +146,11 @@ class Interfaz:
 			return camino
 		elif tipo_algoritmo == 2:
 			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(algoritmo.camino_final))
+			return camino
+
+		elif tipo_algoritmo == 3:
+			algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
 			camino=list(reversed(algoritmo.camino_final))
 			return camino
 
@@ -157,3 +174,4 @@ class Interfaz:
 		pygame.mixer.music.load('sound/win.wav')
 		pygame.mixer.music.play(0)
 		ventana.blit(img_end,(nodo_final.x*60,nodo_final.y*60))
+

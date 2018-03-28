@@ -5,9 +5,8 @@ class Algoritmo:
 	lista_nodos = []
 	camino_final = []
 	cant_nodos_expandidos = 1
-	pos_pasada_x = None
-	pos_pasada_y = None
 	tiene_flor = False
+	profundidad_arbol = 0
 
 	def __init__(self,entrada):
 		self.tiempo_inicial = time()
@@ -15,13 +14,15 @@ class Algoritmo:
 
 	def crear_nodo(self,x,y,peso_anterior,nodo_padre):
 		
-		#crea el nodo si es diferente a muro o tortuga, si es tortuga y tiene flor pasa
-		if int(self.entrada[y][x])!=1 and (int(self.entrada[y][x])!= 4 or self.tiene_flor == True):			
+		#crea el nodo si es diferente a muro
+		if int(self.entrada[y][x])!=1:			
 		#if int(self.entrada[y][x])!=1:			
 			n=nodo()
 			n.x=x
 			n.y=y
 			n.padre=nodo_padre
+			n.profundidad = nodo_padre.profundidad + 1
+			self.save_profundidad_arbol(n.profundidad)
 			if(self.tiene_flor==False):
 				n.peso=self.peso_casilla(x,y)+peso_anterior
 			else:
@@ -31,7 +32,7 @@ class Algoritmo:
 			return False
 
 	def expansion_disponible(self,x,y):
-		if x<0 or x >9 or y<0 or y>9 or (x == self.pos_pasada_x and y == self.pos_pasada_y):
+		if x<0 or x >9 or y<0 or y>9:
 			return False
 		else:
 			return True
@@ -62,8 +63,7 @@ class Algoritmo:
 			result=self.crear_nodo(nodo.x-1,nodo.y,nodo.peso,nodo)
 			if(result!=False):
 				hijos.append(result)
-		self.pos_pasada_x = nodo.x
-		self.pos_pasada_y = nodo.y
+
 		print "numero de hijos expandidos ", len(hijos)
 		return hijos
 
@@ -91,16 +91,22 @@ class Algoritmo:
 		for x in self.lista_nodos:
 			print "elementos lista nodo ",x.x," ",x.y
 
+	
+	def save_profundidad_arbol(self,profundidad_nodo):
+		if  profundidad_nodo > self.profundidad_arbol:
+			self.profundidad_arbol = profundidad_nodo
+
+
 	def resumen(self,index):
 		print "----------------------------------------------------------------"
 		print "el nodo meta esta ",self.lista_nodos[index].x," ",self.lista_nodos[index].y
 		#Recuperar el camino de llegada
-		print "el peso es", self.lista_nodos[index].peso
+		print "el peso del camino es", self.lista_nodos[index].peso
 		self.camino_destino(self.lista_nodos[index],self.nodo_inicial,self.camino_final)
 
 		print "Se expandieron un total de", self.cant_nodos_expandidos," nodos"
 		#CORREGIR!
-		print "El arbol tiene una profundidad de", len(self.camino_final)
+		print "El arbol tiene una profundidad de", self.profundidad_arbol
 
 		print "Tiempo de ejecucion ", self.tiempo_ejecucion()
 

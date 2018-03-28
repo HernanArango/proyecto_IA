@@ -1,6 +1,7 @@
 from algoritmo import *
-class Preferente_amplitud(Algoritmo):
+class Preferente_profundidad(Algoritmo):
 
+	
 
 	def __init__(self,entrada,nodo_inicial,nodo_meta):
 		Algoritmo.__init__(self,entrada)
@@ -25,30 +26,50 @@ class Preferente_amplitud(Algoritmo):
 
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 
-			
-			hijos = self.expandirNodo(self.lista_nodos[0])			
+			if self.nodo_fue_expandido(self.lista_nodos[0].padre,self.lista_nodos[0]) == False:
+				hijos = self.expandirNodo(self.lista_nodos[0])
+			else:
+				print "no expande"
+				hijos = []
+
 			self.cant_nodos_expandidos = self.cant_nodos_expandidos + len(hijos);
 
-
-			for nodo_hijo in hijos:
-				#agrega cada nodo hijo al final de la lista
-				self.lista_nodos.append(nodo_hijo)
-
-
+			
 			#borra el primer elemento
 			self.lista_nodos.pop(0)
 
+			#volteamos la lista para que coloque abc y no cba
+			for nodo_hijo in reversed(hijos):
+				#agrega cada nodo hijo al principio de la lista
+				self.lista_nodos.insert(0, nodo_hijo)
+
+
 			self.mostrar_lista()
-					
+						
 
 			i = i + 1		
-			if i == 100:
+			if i == 10:
 				#break
 				pass
 			
 		
 		return self.camino_final
-		
+	
+	#evita ciclos
+	def nodo_fue_expandido(self,nodo_padre,nodo_a_verificar):
+		#llego a la raiz
+		if isinstance(nodo_padre, int) is True:
+			print "expande es el nodo raiz"
+			return False
+		#si es igual a algun nodo padre 
+		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y:
+			print "ya se ha expandido no expande"
+			return True
+		else:
+			print "ciclo"
+			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
+			
+
 			
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:
