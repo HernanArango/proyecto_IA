@@ -25,8 +25,12 @@ class Preferente_amplitud(Algoritmo):
 
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 
+			if self.nodo_fue_expandido(self.lista_nodos[0].padre,self.lista_nodos[0]) == False:
+				hijos = self.expandirNodo(self.lista_nodos[0])			
+			else:
+				print "no expande"
+				hijos = []
 			
-			hijos = self.expandirNodo(self.lista_nodos[0])			
 			self.cant_nodos_expandidos = self.cant_nodos_expandidos + len(hijos);
 
 
@@ -42,13 +46,27 @@ class Preferente_amplitud(Algoritmo):
 					
 
 			i = i + 1		
-			if i == 100:
+			if i == 600:
 				#break
 				pass
 			
 		
 		return self.camino_final
-		
+	
+
+	#evita ciclos
+	def nodo_fue_expandido(self,nodo_padre,nodo_a_verificar):
+		#llego a la raiz
+		if isinstance(nodo_padre, int) is True:
+			print "expande es el nodo raiz"
+			return False
+		#si es igual a algun nodo padre 
+		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y:
+			print "ya se ha expandido no expande"
+			return True
+		else:
+			print "ciclo"
+			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
 			
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:

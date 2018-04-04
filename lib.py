@@ -45,7 +45,6 @@ class Interfaz:
 		self.leerEntrada(namefile)
 		#init pygame
 		pygame.init()
-
 		#variables iniciales para creacion de grilla
 		color=(255,255,255)#blanco
 		colorDos=pygame.Color(0,0,0)#negro
@@ -55,8 +54,6 @@ class Interfaz:
 		margen=2
 		x=0
 		y=0
-		#
-
 		#lienzo
 		ventana=pygame.display.set_mode((1000, 600))
 		#titulo para el lienzo
@@ -87,21 +84,15 @@ class Interfaz:
 				x=x+60
 			y=y+60
 			x=0
-
-		pygame.draw.rect(ventana, colorDos, (700,100,100,30),margen)
-		#pygame.draw.rect(ventana, colorDos, (700,200,100,30),margen)
-		
-		button = pygame.Rect(700,200,100,30)
-		button2 = pygame.Rect(700,240,100,30)
-		button3 = pygame.Rect(700,280,100,30)
-		pygame.draw.rect(ventana, [255, 0, 0], button)
-		pygame.draw.rect(ventana, [255, 0, 0], button2)
-		pygame.draw.rect(ventana, [255, 0, 0], button3)
-
-		
 		
 		while True:
-		#pintar de X color  el lienzo
+			button = pygame.Rect(640,200,100,30)
+			button2 = pygame.Rect(750,200,100,30)
+			button3 = pygame.Rect(860,200,100,30)
+			button4 = pygame.Rect(690,280,100,30)
+			button5 = pygame.Rect(800,280,100,30)
+			button6 = pygame.Rect(750,550,100,30)
+			self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
 			for evento in pygame.event.get():
 				camino_final=""
 				if evento.type == QUIT:
@@ -131,10 +122,7 @@ class Interfaz:
 						tipo_algoritmo = 3
 						camino = self.calcular(tipo_algoritmo)
 						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)	
-		            
-		        	
-
-			pygame.display.update()
+				pygame.display.update()
 
 		
 	def calcular(self,tipo_algoritmo):
@@ -175,3 +163,60 @@ class Interfaz:
 		pygame.mixer.music.play(0)
 		ventana.blit(img_end,(nodo_final.x*60,nodo_final.y*60))
 
+
+	def menu_principal(self,ventana,b_1,b_2,b_3,b_4,b_5,b_6):
+		#Titulo
+		font = pygame.font.SysFont("comicsansms", 50)
+		title = font.render("Proyecto #1", True, (107, 107, 107))
+		ventana.blit(title,(650+(title.get_width()/3),30))
+		#------------------------------------------------------
+		#Nombres
+		font = pygame.font.SysFont("comicsansms", 30)
+		name1 = font.render("Hernan Arango-1710060", True, (0, 0, 0))
+		name2 = font.render("Daniel Gaviria-1710145", True, (0, 0, 0))
+		ventana.blit(name1,(605,90))
+		ventana.blit(name2,(605,120))
+		#------------------------------------------------------
+		#Busqueda No Informada
+		subtitle1 = font.render("Busqueda No Informada", True, (170, 170, 170))
+		ventana.blit(subtitle1,(650+(subtitle1.get_width()/6),160))
+		#Botones
+		font = pygame.font.SysFont("comicsansms", 20)
+		text_b1=font.render("Amplitud", True, (0, 0, 0))
+		text_b2=font.render("Costo U.", True, (0, 0, 0))
+		text_b3=font.render("Profundidad", True, (0, 0, 0))
+		pygame.draw.rect(ventana, [170, 170, 170], b_1)
+		pygame.draw.rect(ventana, [170, 170, 170], b_2)
+		pygame.draw.rect(ventana, [170, 170, 170], b_3)
+		ventana.blit(text_b1,(645+(text_b1.get_width()/3),207))
+		ventana.blit(text_b2,(755+(text_b2.get_width()/3),207))
+		ventana.blit(text_b3,(860+(text_b3.get_width()/6),207))
+		#------------------------------------------------------
+		#Busqueda Informada
+		font = pygame.font.SysFont("comicsansms", 30)
+		subtitle2 = font.render("Busqueda Informada", True, (170, 170, 170))
+		ventana.blit(subtitle2,(650+(subtitle2.get_width()/4),250))
+		#Botones
+		font = pygame.font.SysFont("comicsansms", 20)
+		text_b4=font.render("Avara", True, (0, 0, 0))
+		text_b5=font.render("A*", True, (0, 0, 0))
+		pygame.draw.rect(ventana, [170, 170, 170], b_4)
+		pygame.draw.rect(ventana, [170, 170, 170], b_5)
+		ventana.blit(text_b4,(720,288))
+		ventana.blit(text_b5,(840,288))
+		#------------------------------------------------------
+		#Informes de Busqueda
+		font = pygame.font.SysFont("comicsansms", 40)
+		subtitle3 = font.render("Resumen", True, (170, 170, 170))
+		ventana.blit(subtitle3,(650+(subtitle3.get_width()/1.5),320))
+		font = pygame.font.SysFont("comicsansms", 20)
+		subtitle4=font.render("# Nodos Expandidos:", True, (170, 170, 170))
+		subtitle5=font.render("Profundidad del arbol:", True, (170, 170, 170))
+		subtitle6=font.render("Tiempo de Ejecucion:", True, (170, 170, 170))
+		ventana.blit(subtitle4,(660,360))
+		ventana.blit(subtitle5,(660,420))
+		ventana.blit(subtitle6,(660,480))
+		#Boton de reset Interfaz
+		text_b6=font.render("Reset", True, (0, 0, 0))
+		pygame.draw.rect(ventana, [170, 170, 170], b_6)
+		ventana.blit(text_b6,(780,557))

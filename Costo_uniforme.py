@@ -24,11 +24,13 @@ class Costo_uniforme(Algoritmo):
 				break
 
 			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y
-			print "el peso es:",self.lista_nodos[index].peso
 			
-			
-			
-			hijos = self.expandirNodo(self.lista_nodos[index])			
+			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
+				hijos = self.expandirNodo(self.lista_nodos[index])			
+			else:
+				print "no expande"
+				hijos = []
+				
 			self.cant_nodos_expandidos=self.cant_nodos_expandidos + len(hijos);
 
 
@@ -37,14 +39,14 @@ class Costo_uniforme(Algoritmo):
 				self.lista_nodos.append(nodo_hijo)
 
 
-			#borra el primer elemento
+			#borra el elemento que se expandio elemento
 			self.lista_nodos.pop(index)
 
 			self.mostrar_lista()
 						
 
 			i = i + 1		
-			if i == 10:
+			if i == 1000:
 				#break
 				pass
 
@@ -53,6 +55,20 @@ class Costo_uniforme(Algoritmo):
 			return True
 		else:
 			return False
+
+	#evita ciclos
+	def nodo_fue_expandido(self,nodo_padre,nodo_a_verificar):
+		#llego a la raiz
+		if isinstance(nodo_padre, int) is True:
+			print "expande es el nodo raiz"
+			return False
+		#si es igual a algun nodo padre 
+		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y:
+			print "ya se ha expandido no expande"
+			return True
+		else:
+			print "ciclo"
+			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
 
 	def index_nodo_a_expandir(self):
 		flag = self.lista_nodos[0]
