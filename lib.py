@@ -7,6 +7,8 @@ from clases import *
 from Preferente_amplitud import *
 from Preferente_profundidad import *
 from Costo_uniforme import *
+from Avara import *
+from A import *
 
 class Interfaz:
 
@@ -109,8 +111,6 @@ class Interfaz:
 					sys.exit()
 				if evento.type == pygame.MOUSEBUTTONDOWN:
 					mouse_pos = evento.pos  # gets mouse position
-
-					
 					
 					# checks if mouse position is over the button
 					if button.collidepoint(mouse_pos):
@@ -134,6 +134,24 @@ class Interfaz:
 					if button3.collidepoint(mouse_pos):
 						if self.execute==0:
 							tipo_algoritmo = 3
+							camino = self.calcular(tipo_algoritmo)
+							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+							self.execute=1
+						else:
+							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+					if button4.collidepoint(mouse_pos):
+						if self.execute==0:
+							tipo_algoritmo = 4
+							camino = self.calcular(tipo_algoritmo)
+							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+							self.execute=1
+						else:
+							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+					if button5.collidepoint(mouse_pos):
+						if self.execute==0:
+							tipo_algoritmo = 5
 							camino = self.calcular(tipo_algoritmo)
 							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
 							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
@@ -164,6 +182,14 @@ class Interfaz:
 
 		elif tipo_algoritmo == 3:
 			self.algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(self.algoritmo.camino_final))
+			return camino
+		elif tipo_algoritmo == 4:
+			self.algoritmo = Avara(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(self.algoritmo.camino_final))
+			return camino
+		elif tipo_algoritmo == 5:
+			self.algoritmo = A(self.entrada,self.nodo_inicial,self.nodo_meta)
 			camino=list(reversed(self.algoritmo.camino_final))
 			return camino
 

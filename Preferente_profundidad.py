@@ -27,7 +27,7 @@ class Preferente_profundidad(Algoritmo):
 			print "nodo a expandir",self.lista_nodos[0].x," ",self.lista_nodos[0].y
 
 			if self.nodo_fue_expandido(self.lista_nodos[0].padre,self.lista_nodos[0]) == False:
-				hijos = self.expandirNodo(self.lista_nodos[0])
+				hijos = self.expandirNodo(self.lista_nodos[0],self.nodo_meta)
 			else:
 				print "no expande"
 				hijos = []

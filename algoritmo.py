@@ -13,7 +13,7 @@ class Algoritmo:
 		self.tiempo_ejecucion=0
 
 	#Crea una instancia de la clase nodo y lo returna
-	def crear_nodo(self,x,y,peso_anterior,nodo_padre):
+	def crear_nodo(self,x,y,peso_anterior,nodo_padre,nodo_meta):
 		
 		#crea el nodo si es diferente a muro
 		if int(self.entrada[y][x])!=1:			
@@ -28,6 +28,8 @@ class Algoritmo:
 				n.peso=self.peso_casilla(x,y)+peso_anterior
 			else:
 				n.peso=1+peso_anterior
+			n.heuristica=self.calcular_heuristica(n,nodo_meta)
+			n.heuristica_peso=n.peso+n.heuristica
 			return n
 		else:
 			return False
@@ -39,7 +41,7 @@ class Algoritmo:
 		else:
 			return True
 
-	def expandirNodo(self,nodo):
+	def expandirNodo(self,nodo,nodo_meta):
 		hijos = []
 
 		if int(self.entrada[nodo.y][nodo.x]) == 3:
@@ -47,22 +49,22 @@ class Algoritmo:
 		
 		#expArriba
 		if(self.expansion_disponible(nodo.x,nodo.y-1)):
-			result=self.crear_nodo(nodo.x,nodo.y-1,nodo.peso,nodo)
+			result=self.crear_nodo(nodo.x,nodo.y-1,nodo.peso,nodo,nodo_meta)
 			if(result!=False):
 				hijos.append(result)
 		#expAbajo
 		if(self.expansion_disponible(nodo.x,nodo.y+1)):
-			result=self.crear_nodo(nodo.x,nodo.y+1,nodo.peso,nodo)
+			result=self.crear_nodo(nodo.x,nodo.y+1,nodo.peso,nodo,nodo_meta)
 			if(result!=False):
 				hijos.append(result)
 		#expDerecha
 		if(self.expansion_disponible(nodo.x+1,nodo.y)):
-			result=self.crear_nodo(nodo.x+1,nodo.y,nodo.peso,nodo)
+			result=self.crear_nodo(nodo.x+1,nodo.y,nodo.peso,nodo,nodo_meta)
 			if(result!=False):
 				hijos.append(result)
 		#expIzquierda
 		if(self.expansion_disponible(nodo.x-1,nodo.y)):
-			result=self.crear_nodo(nodo.x-1,nodo.y,nodo.peso,nodo)
+			result=self.crear_nodo(nodo.x-1,nodo.y,nodo.peso,nodo,nodo_meta)
 			if(result!=False):
 				hijos.append(result)
 
@@ -114,4 +116,8 @@ class Algoritmo:
 
 		print "Tiempo de ejecucion ", self.calcular_tiempo_ejecucion()
 
-			
+	
+	def calcular_heuristica(self,nodo_base,nodo_meta):
+		x=abs(nodo_base.x-nodo_meta.x)
+		y=abs(nodo_base.y-nodo_meta.y)
+		return x+y

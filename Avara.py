@@ -1,5 +1,5 @@
 from algoritmo import *
-class Costo_uniforme(Algoritmo):
+class Avara(Algoritmo):
 
 	
 	def __init__(self,entrada,nodo_inicial,nodo_meta):
@@ -26,7 +26,7 @@ class Costo_uniforme(Algoritmo):
 			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y
 			
 			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
-				hijos = self.expandirNodo(self.lista_nodos[index],self.nodo_meta)
+				hijos = self.expandirNodo(self.lista_nodos[index],self.nodo_meta)			
 			else:
 				print "no expande"
 				hijos = []
@@ -46,7 +46,7 @@ class Costo_uniforme(Algoritmo):
 						
 
 			i = i + 1		
-			if i == 1000:
+			if i == 5:
 				#break
 				pass
 
@@ -71,12 +71,12 @@ class Costo_uniforme(Algoritmo):
 			print "ciclo"
 			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
 
-	#En la lista de nodos expandidos busca cual es el nodo con menor g(n)
+	#En la lista de nodos expandidos busca cual es el nodo con menor h(n)
 	def index_nodo_a_expandir(self):
 		flag = self.lista_nodos[0]
 		#se busca el menor peso entre los nodos
 		for nodo in self.lista_nodos:
-			if flag.peso > nodo.peso:
+			if flag.heuristica > nodo.heuristica:
 				flag = nodo
 
 		#retornamos el index de dicho nodo
