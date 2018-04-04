@@ -9,6 +9,10 @@ from Preferente_profundidad import *
 from Costo_uniforme import *
 
 class Interfaz:
+
+	def __init__(self):
+		self.algoritmo=""
+
 	def tipo_imagen(self,num):
 
 		flor = pygame.image.load('img/flor.png')
@@ -103,25 +107,28 @@ class Interfaz:
 
 					# checks if mouse position is over the button
 					if button.collidepoint(mouse_pos):
-						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 1
 						camino = self.calcular(tipo_algoritmo)
-						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		                
+						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+						del camino
 
 					if button2.collidepoint(mouse_pos):
-						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 2
 						camino = self.calcular(tipo_algoritmo)
-						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		                
+						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)
+						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+						del camino
 
 					if button3.collidepoint(mouse_pos):
-						# prints current location of mouse
 						print('button was pressed at {0}'.format(mouse_pos))
 						tipo_algoritmo = 3
 						camino = self.calcular(tipo_algoritmo)
 						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)	
+						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+						del camino
 					if button6.collidepoint(mouse_pos):
 						self.reset_map(ventana)
 
@@ -132,17 +139,20 @@ class Interfaz:
 		
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
-			algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
-			camino=list(reversed(algoritmo.camino_final))
+			self.algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(self.algoritmo.camino_final))
+			self.algoritmo.camino_final=[]
 			return camino
 		elif tipo_algoritmo == 2:
-			algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
-			camino=list(reversed(algoritmo.camino_final))
+			self.algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(self.algoritmo.camino_final))
+			self.algoritmo.camino_final=[]
 			return camino
 
 		elif tipo_algoritmo == 3:
-			algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
-			camino=list(reversed(algoritmo.camino_final))
+			self.algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
+			camino=list(reversed(self.algoritmo.camino_final))
+			self.algoritmo.camino_final=[]
 			return camino
 
 	def pintar_camino(self,ventana,camino,nodo_inicial,nodo_final):
@@ -266,5 +276,23 @@ class Interfaz:
 			y=y+60
 			x=0
 
+		self.informe_algoritmo("","","",ventana)
 		pygame.display.update()
+
+
+	#Pintar el informe de la ejecucion del algoritmo
+	def informe_algoritmo(self, nodos_expandidos,profundidad,timpo_ejecucion,ventana):
+		font = pygame.font.SysFont("comicsansms", 30)
+		#Crear Textos Resumen
+		cant_nodos=font.render(nodos_expandidos, True, (0, 0, 0))
+		prof=font.render(profundidad, True, (0, 0, 0))
+		tiempo=font.render(timpo_ejecucion, True, (0, 0, 0))
+		#Pintar Resumenes
+		ventana.blit(cant_nodos,(660,375))
+		ventana.blit(prof,(660,435))
+		ventana.blit(tiempo,(660,495))
+		pygame.display.update()
+
+
+
 

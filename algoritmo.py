@@ -7,6 +7,7 @@ class Algoritmo:
 	cant_nodos_expandidos = 1
 	tiene_flor = False
 	profundidad_arbol = 0
+	tiempo_ejecucion=0
 
 	def __init__(self,entrada):
 		self.tiempo_inicial = time()
@@ -84,7 +85,8 @@ class Algoritmo:
 			self.camino_destino(nodo_final.padre,nodo_raiz,camino)
 
 	def tiempo_ejecucion(self):
-		return time() - self.tiempo_inicial
+		self.tiempo_ejecucion=time() - self.tiempo_inicial
+		return self.tiempo_ejecucion
 
 	def mostrar_lista(self):
 		print "--------------------------------------"
