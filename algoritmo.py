@@ -1,18 +1,18 @@
 from clases import nodo
 from time import time
 class Algoritmo:
-	
-	lista_nodos = []
-	camino_final = []
-	cant_nodos_expandidos = 1
-	tiene_flor = False
-	profundidad_arbol = 0
-	tiempo_ejecucion=0
 
 	def __init__(self,entrada):
 		self.tiempo_inicial = time()
 		self.entrada = entrada
+		self.lista_nodos = []
+		self.camino_final = []
+		self.cant_nodos_expandidos = 1
+		self.tiene_flor = False
+		self.profundidad_arbol = 0
+		self.tiempo_ejecucion=0
 
+	#Crea una instancia de la clase nodo y lo returna
 	def crear_nodo(self,x,y,peso_anterior,nodo_padre):
 		
 		#crea el nodo si es diferente a muro
@@ -32,6 +32,7 @@ class Algoritmo:
 		else:
 			return False
 
+	#Evalua que exista la casilla que se desea expandir
 	def expansion_disponible(self,x,y):
 		if x<0 or x >9 or y<0 or y>9:
 			return False
@@ -68,6 +69,7 @@ class Algoritmo:
 		print "numero de hijos expandidos ", len(hijos)
 		return hijos
 
+	#Retorna el peso de una casilla
 	def peso_casilla(self,x,y):
 		if int(self.entrada[y][x])!=4:
 			return 1
@@ -84,7 +86,7 @@ class Algoritmo:
 			camino.append(nodo_final)
 			self.camino_destino(nodo_final.padre,nodo_raiz,camino)
 
-	def tiempo_ejecucion(self):
+	def calcular_tiempo_ejecucion(self):
 		self.tiempo_ejecucion=time() - self.tiempo_inicial
 		return self.tiempo_ejecucion
 
@@ -93,12 +95,12 @@ class Algoritmo:
 		for x in self.lista_nodos:
 			print "elementos lista nodo ",x.x," ",x.y
 
-	
+	#Almacena la profundidad del arbol
 	def save_profundidad_arbol(self,profundidad_nodo):
 		if  profundidad_nodo > self.profundidad_arbol:
 			self.profundidad_arbol = profundidad_nodo
 
-
+	#Actualiza la informacion del resumen
 	def resumen(self,index):
 		print "----------------------------------------------------------------"
 		print "el nodo meta esta ",self.lista_nodos[index].x," ",self.lista_nodos[index].y
@@ -110,6 +112,6 @@ class Algoritmo:
 		#CORREGIR!
 		print "El arbol tiene una profundidad de", self.profundidad_arbol
 
-		print "Tiempo de ejecucion ", self.tiempo_ejecucion()
+		print "Tiempo de ejecucion ", self.calcular_tiempo_ejecucion()
 
 			

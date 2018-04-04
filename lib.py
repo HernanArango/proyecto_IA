@@ -12,9 +12,21 @@ class Interfaz:
 
 	def __init__(self):
 		self.algoritmo=""
+		self.execute=0
 
+	
+
+	#Lee la matriz del archivo de texto
+	def leerEntrada(self,namefile):
+		self.entrada = []
+		#lectura de la entrada
+		file  = open(namefile, "r") 
+		for line in file:
+			line_clean=line.rstrip().split(" ");
+			self.entrada.append(line_clean)
+
+	#Retorna el tipo de imagen que debe pintar segun la lectura del archivo
 	def tipo_imagen(self,num):
-
 		flor = pygame.image.load('img/flor.png')
 		mario = pygame.image.load('img/mario.png')
 		muro = pygame.image.load('img/ladrillo.png')
@@ -34,16 +46,7 @@ class Interfaz:
 		else:
 			return 0
 
-	def leerEntrada(self,namefile):
-		self.entrada = []
-		#lectura de la entrada
-		file  = open(namefile, "r") 
-		for line in file:
-			line_clean=line.rstrip().split(" ");
-			self.entrada.append(line_clean)
-
-		
-
+	#Se encarga de pintar el ambiente inicial (Ambiente y menu principal)
 	def ambInicial(self,namefile):
 
 		self.leerEntrada(namefile)
@@ -88,15 +91,17 @@ class Interfaz:
 				x=x+60
 			y=y+60
 			x=0
+
+		button = pygame.Rect(640,200,100,30)
+		button2 = pygame.Rect(750,200,100,30)
+		button3 = pygame.Rect(860,200,100,30)
+		button4 = pygame.Rect(690,280,100,30)
+		button5 = pygame.Rect(800,280,100,30)
+		button6 = pygame.Rect(750,550,100,30)
+		self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
 		
 		while True:
-			button = pygame.Rect(640,200,100,30)
-			button2 = pygame.Rect(750,200,100,30)
-			button3 = pygame.Rect(860,200,100,30)
-			button4 = pygame.Rect(690,280,100,30)
-			button5 = pygame.Rect(800,280,100,30)
-			button6 = pygame.Rect(750,550,100,30)
-			self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
+			
 			for evento in pygame.event.get():
 				camino_final=""
 				if evento.type == QUIT:
@@ -105,56 +110,64 @@ class Interfaz:
 				if evento.type == pygame.MOUSEBUTTONDOWN:
 					mouse_pos = evento.pos  # gets mouse position
 
+					
+					
 					# checks if mouse position is over the button
 					if button.collidepoint(mouse_pos):
-						print('button was pressed at {0}'.format(mouse_pos))
-						tipo_algoritmo = 1
-						camino = self.calcular(tipo_algoritmo)
-						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-						del camino
-
+						if self.execute==0:
+							tipo_algoritmo = 1
+							camino = self.calcular(tipo_algoritmo)
+							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+							self.execute=1
+						else:
+							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
 					if button2.collidepoint(mouse_pos):
-						print('button was pressed at {0}'.format(mouse_pos))
-						tipo_algoritmo = 2
-						camino = self.calcular(tipo_algoritmo)
-						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)
-						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-						del camino
-
+						if self.execute==0:
+							tipo_algoritmo = 2
+							camino = self.calcular(tipo_algoritmo)
+							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+							self.execute=1
+						else:
+							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
 					if button3.collidepoint(mouse_pos):
-						print('button was pressed at {0}'.format(mouse_pos))
-						tipo_algoritmo = 3
-						camino = self.calcular(tipo_algoritmo)
-						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)	
-						self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-						del camino
+						if self.execute==0:
+							tipo_algoritmo = 3
+							camino = self.calcular(tipo_algoritmo)
+							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+							self.execute=1
+						else:
+							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
 					if button6.collidepoint(mouse_pos):
 						self.reset_map(ventana)
+						self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
+						self.execute=0
+						
 
 				pygame.display.update()
 
-		
+	
+	#Recibe el tipo de algoritmo que desea ejecutar el usuario, y retorna la solucion
 	def calcular(self,tipo_algoritmo):
 		
 		#preferente por amplitud
 		if tipo_algoritmo == 1:
 			self.algoritmo = Preferente_amplitud(self.entrada,self.nodo_inicial,self.nodo_meta)
 			camino=list(reversed(self.algoritmo.camino_final))
-			self.algoritmo.camino_final=[]
 			return camino
 		elif tipo_algoritmo == 2:
 			self.algoritmo = Costo_uniforme(self.entrada,self.nodo_inicial,self.nodo_meta)
 			camino=list(reversed(self.algoritmo.camino_final))
-			self.algoritmo.camino_final=[]
 			return camino
 
 		elif tipo_algoritmo == 3:
 			self.algoritmo = Preferente_profundidad(self.entrada,self.nodo_inicial,self.nodo_meta)
 			camino=list(reversed(self.algoritmo.camino_final))
-			self.algoritmo.camino_final=[]
 			return camino
 
+	#Recibe el ambiente, el camino ganador y pinta en el ambiente la animacion del recorrido
 	def pintar_camino(self,ventana,camino,nodo_inicial,nodo_final):
 		pygame.mixer.pre_init(44100, -16, 2, 2048)
 		pygame.mixer.init()
@@ -234,7 +247,7 @@ class Interfaz:
 		pygame.draw.rect(ventana, [170, 170, 170], b_6)
 		ventana.blit(text_b6,(780,557))
 
-	#Reinicia el mapa
+	#Deja el ambiente en su estado inicial
 	def reset_map(self, ventana):
 		pygame.mixer.music.stop()
 		#dimensiones para la grilla
@@ -276,6 +289,7 @@ class Interfaz:
 			y=y+60
 			x=0
 
+		self.algoritmo=None
 		self.informe_algoritmo("","","",ventana)
 		pygame.display.update()
 
@@ -294,5 +308,8 @@ class Interfaz:
 		pygame.display.update()
 
 
-
+	def reset_interfaz_please(self, ventana,error):
+		font = pygame.font.SysFont("comicsansms", 20)
+		msj=font.render(error, True, (100, 0, 0))
+		ventana.blit(msj,(660,580))
 
