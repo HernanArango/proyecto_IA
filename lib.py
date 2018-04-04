@@ -122,6 +122,9 @@ class Interfaz:
 						tipo_algoritmo = 3
 						camino = self.calcular(tipo_algoritmo)
 						self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)	
+					if button6.collidepoint(mouse_pos):
+						self.reset_map(ventana)
+
 				pygame.display.update()
 
 		
@@ -163,7 +166,7 @@ class Interfaz:
 		pygame.mixer.music.play(0)
 		ventana.blit(img_end,(nodo_final.x*60,nodo_final.y*60))
 
-
+	#Pinta el menu principal
 	def menu_principal(self,ventana,b_1,b_2,b_3,b_4,b_5,b_6):
 		#Titulo
 		font = pygame.font.SysFont("comicsansms", 50)
@@ -220,3 +223,48 @@ class Interfaz:
 		text_b6=font.render("Reset", True, (0, 0, 0))
 		pygame.draw.rect(ventana, [170, 170, 170], b_6)
 		ventana.blit(text_b6,(780,557))
+
+	#Reinicia el mapa
+	def reset_map(self, ventana):
+		pygame.mixer.music.stop()
+		#dimensiones para la grilla
+		color=(255,255,255)#blanco
+		colorDos=pygame.Color(0,0,0)#negro
+		largo=60
+		alto=60
+		margen=2
+		x=0
+		y=0
+		#lienzo
+		ventana=pygame.display.set_mode((1000, 600))
+		#titulo para el lienzo
+		pygame.display.set_caption("init")
+
+		ventana.fill(color)
+		#definimos nodo inicial donde se encuentra mario
+		self.nodo_inicial=nodo()
+		#definimos nodo inicial donde se encuentra mario
+		self.nodo_meta=nodo()
+
+		for fila in range(0,10):
+			for columna in range(0,10):
+				#pygame.draw.rect(ventana, color, (x,y,alto,largo),margen)
+				if int(self.entrada[fila][columna])==0:
+					pygame.draw.rect(ventana, colorDos, (x,y,alto,largo),margen)
+				else:
+					#calcula la posicion del nodo inicial donde se encuentra mario
+					if (int(self.entrada[fila][columna]) == 2):
+						self.nodo_inicial.x=columna
+						self.nodo_inicial.y=fila
+					#nodo meta donde se encuentra la princesa
+					elif (int(self.entrada[fila][columna]) == 5):
+						self.nodo_meta.x=columna
+						self.nodo_meta.y=fila
+
+					ventana.blit(self.tipo_imagen(int(self.entrada[fila][columna])),(x,y))
+				x=x+60
+			y=y+60
+			x=0
+
+		pygame.display.update()
+
