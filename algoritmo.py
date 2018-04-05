@@ -26,8 +26,10 @@ class Algoritmo:
 			self.save_profundidad_arbol(n.profundidad)
 			if(self.tiene_flor==False):
 				n.peso=self.peso_casilla(x,y)+peso_anterior
+				n.flor=False
 			else:
 				n.peso=1+peso_anterior
+				n.flor=True
 			n.heuristica=self.calcular_heuristica(n,nodo_meta)
 			n.heuristica_peso=n.peso+n.heuristica
 			return n

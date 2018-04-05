@@ -7,6 +7,7 @@ class nodo:
 	heuristica_peso=0
 	padre=0;
 	profundidad = 0
+	flor=False
 
 class agent:
 	flor=False

@@ -64,7 +64,7 @@ class Costo_uniforme(Algoritmo):
 			print "expande es el nodo raiz"
 			return False
 		#si es igual a algun nodo padre 
-		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y:
+		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y and nodo_a_verificar.flor == nodo_padre.flor:
 			print "ya se ha expandido no expande"
 			return True
 		else:
