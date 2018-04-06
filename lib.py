@@ -1,5 +1,6 @@
 import sys
-
+from Tkinter import *
+import Tkinter, Tkconstants, tkFileDialog
 import pygame
 import time as t
 from pygame.locals import *
@@ -66,106 +67,111 @@ class Interfaz:
 		#lienzo
 		ventana=pygame.display.set_mode((1000, 600))
 		#titulo para el lienzo
-		pygame.display.set_caption("init")
+		pygame.display.set_caption("Proyecto#1-Inteligencia Artificial")
 
 		ventana.fill(color)
 		#definimos nodo inicial donde se encuentra mario
 		self.nodo_inicial=nodo()
 		#definimos nodo inicial donde se encuentra mario
 		self.nodo_meta=nodo()
+		try:
+			for fila in range(0,10):
+				for columna in range(0,10):
+					#pygame.draw.rect(ventana, color, (x,y,alto,largo),margen)
+					if int(self.entrada[fila][columna])==0:
+						pygame.draw.rect(ventana, colorDos, (x,y,alto,largo),margen)
+					else:
+						#calcula la posicion del nodo inicial donde se encuentra mario
+						if (int(self.entrada[fila][columna]) == 2):
+							self.nodo_inicial.x=columna
+							self.nodo_inicial.y=fila
+						#nodo meta donde se encuentra la princesa
+						elif (int(self.entrada[fila][columna]) == 5):
+							self.nodo_meta.x=columna
+							self.nodo_meta.y=fila
 
-		for fila in range(0,10):
-			for columna in range(0,10):
-				#pygame.draw.rect(ventana, color, (x,y,alto,largo),margen)
-				if int(self.entrada[fila][columna])==0:
-					pygame.draw.rect(ventana, colorDos, (x,y,alto,largo),margen)
-				else:
-					#calcula la posicion del nodo inicial donde se encuentra mario
-					if (int(self.entrada[fila][columna]) == 2):
-						self.nodo_inicial.x=columna
-						self.nodo_inicial.y=fila
-					#nodo meta donde se encuentra la princesa
-					elif (int(self.entrada[fila][columna]) == 5):
-						self.nodo_meta.x=columna
-						self.nodo_meta.y=fila
+						ventana.blit(self.tipo_imagen(int(self.entrada[fila][columna])),(x,y))
+					x=x+60
+				y=y+60
+				x=0
 
-					ventana.blit(self.tipo_imagen(int(self.entrada[fila][columna])),(x,y))
-				x=x+60
-			y=y+60
-			x=0
-
-		button = pygame.Rect(640,200,100,30)
-		button2 = pygame.Rect(750,200,100,30)
-		button3 = pygame.Rect(860,200,100,30)
-		button4 = pygame.Rect(690,280,100,30)
-		button5 = pygame.Rect(800,280,100,30)
-		button6 = pygame.Rect(750,550,100,30)
-		self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
-		
-		while True:
+			button = pygame.Rect(640,200,100,30)
+			button2 = pygame.Rect(750,200,100,30)
+			button3 = pygame.Rect(860,200,100,30)
+			button4 = pygame.Rect(690,280,100,30)
+			button5 = pygame.Rect(800,280,100,30)
+			button6 = pygame.Rect(750,550,100,30)
+			button7 = pygame.Rect(870,550,120,30)
+			self.menu_principal(ventana,button,button2,button3,button4,button5,button6,button7)
 			
-			for evento in pygame.event.get():
-				camino_final=""
-				if evento.type == QUIT:
-					pygame.quit()
-					sys.exit()
-				if evento.type == pygame.MOUSEBUTTONDOWN:
-					mouse_pos = evento.pos  # gets mouse position
-					
-					# checks if mouse position is over the button
-					if button.collidepoint(mouse_pos):
-						if self.execute==0:
-							tipo_algoritmo = 1
-							camino = self.calcular(tipo_algoritmo)
-							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-							self.execute=1
-						else:
-							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
-					if button2.collidepoint(mouse_pos):
-						if self.execute==0:
-							tipo_algoritmo = 2
-							camino = self.calcular(tipo_algoritmo)
-							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-							self.execute=1
-						else:
-							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
-					if button3.collidepoint(mouse_pos):
-						if self.execute==0:
-							tipo_algoritmo = 3
-							camino = self.calcular(tipo_algoritmo)
-							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-							self.execute=1
-						else:
-							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
-					if button4.collidepoint(mouse_pos):
-						if self.execute==0:
-							tipo_algoritmo = 4
-							camino = self.calcular(tipo_algoritmo)
-							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-							self.execute=1
-						else:
-							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
-					if button5.collidepoint(mouse_pos):
-						if self.execute==0:
-							tipo_algoritmo = 5
-							camino = self.calcular(tipo_algoritmo)
-							self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
-							self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
-							self.execute=1
-						else:
-							self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
-					if button6.collidepoint(mouse_pos):
-						self.reset_map(ventana)
-						self.menu_principal(ventana,button,button2,button3,button4,button5,button6)
-						self.execute=0
+			while True:
+				
+				for evento in pygame.event.get():
+					camino_final=""
+					if evento.type == QUIT:
+						pygame.quit()
+						sys.exit()
+					if evento.type == pygame.MOUSEBUTTONDOWN:
+						mouse_pos = evento.pos  # gets mouse position
 						
+						# checks if mouse position is over the button
+						if button.collidepoint(mouse_pos):
+							if self.execute==0:
+								tipo_algoritmo = 1
+								camino = self.calcular(tipo_algoritmo)
+								self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+								self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+								self.execute=1
+							else:
+								self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+						if button2.collidepoint(mouse_pos):
+							if self.execute==0:
+								tipo_algoritmo = 2
+								camino = self.calcular(tipo_algoritmo)
+								self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+								self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+								self.execute=1
+							else:
+								self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+						if button3.collidepoint(mouse_pos):
+							if self.execute==0:
+								tipo_algoritmo = 3
+								camino = self.calcular(tipo_algoritmo)
+								self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+								self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+								self.execute=1
+							else:
+								self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+						if button4.collidepoint(mouse_pos):
+							if self.execute==0:
+								tipo_algoritmo = 4
+								camino = self.calcular(tipo_algoritmo)
+								self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+								self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+								self.execute=1
+							else:
+								self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+						if button5.collidepoint(mouse_pos):
+							if self.execute==0:
+								tipo_algoritmo = 5
+								camino = self.calcular(tipo_algoritmo)
+								self.pintar_camino(ventana,camino,self.nodo_inicial,self.nodo_meta)		   
+								self.informe_algoritmo(str(self.algoritmo.cant_nodos_expandidos),str(self.algoritmo.profundidad_arbol),str(self.algoritmo.tiempo_ejecucion),ventana)
+								self.execute=1
+							else:
+								self.reset_interfaz_please(ventana,"***por favor reinicie la interfaz")
+						if button6.collidepoint(mouse_pos):
+							self.reset_map(ventana)
+							self.menu_principal(ventana,button,button2,button3,button4,button5,button6,button7)
+							self.execute=0
+						if button7.collidepoint(mouse_pos):
+							self.change_file(ventana,button,button2,button3,button4,button5,button6,button7)
+							self.execute=0
+							
 
-				pygame.display.update()
-
+					pygame.display.update()
+		except:
+			print "falle"
 	
 	#Recibe el tipo de algoritmo que desea ejecutar el usuario, y retorna la solucion
 	def calcular(self,tipo_algoritmo):
@@ -216,7 +222,7 @@ class Interfaz:
 		ventana.blit(img_end,(nodo_final.x*60,nodo_final.y*60))
 
 	#Pinta el menu principal
-	def menu_principal(self,ventana,b_1,b_2,b_3,b_4,b_5,b_6):
+	def menu_principal(self,ventana,b_1,b_2,b_3,b_4,b_5,b_6,b_7):
 		#Titulo
 		font = pygame.font.SysFont("comicsansms", 50)
 		title = font.render("Proyecto #1", True, (107, 107, 107))
@@ -270,8 +276,11 @@ class Interfaz:
 		ventana.blit(subtitle6,(660,480))
 		#Boton de reset Interfaz
 		text_b6=font.render("Reset", True, (0, 0, 0))
+		text_b7=font.render("Cambiar Entrada", True, (0, 0, 0))
 		pygame.draw.rect(ventana, [170, 170, 170], b_6)
+		pygame.draw.rect(ventana, [170, 170, 170], b_7)
 		ventana.blit(text_b6,(780,557))
+		ventana.blit(text_b7,(878,557))
 
 	#Deja el ambiente en su estado inicial
 	def reset_map(self, ventana):
@@ -338,4 +347,13 @@ class Interfaz:
 		font = pygame.font.SysFont("comicsansms", 20)
 		msj=font.render(error, True, (100, 0, 0))
 		ventana.blit(msj,(660,580))
+
+	def change_file(self,ventana,b_1,b_2,b_3,b_4,b_5,b_6,b_7):
+		root = Tk()
+		root.filename = tkFileDialog.askopenfilename(initialdir = "./",title = "Select file",filetypes = (("txt files","*.txt"),("all files","*.*")))
+		path=root.filename
+		root.destroy()
+		self.leerEntrada(str(path))
+		self.reset_map(ventana)
+		self.menu_principal(ventana,b_1,b_2,b_3,b_4,b_5,b_6,b_7)
 
