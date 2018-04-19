@@ -21,8 +21,10 @@ class A(Algoritmo):
 			if self.es_nodo_meta(self.lista_nodos[index]) is True:
 				self.resumen(index)
 				break
-
+			
 			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y," g(n)",self.lista_nodos[index].peso," h(n)",self.lista_nodos[index].heuristica," f(n)",self.lista_nodos[index].heuristica_peso
+			print "tiene_flor",self.lista_nodos[index].flor
+			
 			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
 				hijos = self.expandirNodo(self.lista_nodos[index],self.nodo_meta)			
 			else:
@@ -47,7 +49,6 @@ class A(Algoritmo):
 			if i == 50:
 				#break
 				pass
-
 	#Evalua si el nodo pasado por parametro es igual al nodo meta
 	def es_nodo_meta(self,nodo):
 		if nodo.x == self.nodo_meta.x  and nodo.y == self.nodo_meta.y:
