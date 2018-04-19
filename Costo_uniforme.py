@@ -46,9 +46,9 @@ class Costo_uniforme(Algoritmo):
 						
 
 			i = i + 1		
-			if i == 1000:
-				#break
-				pass
+			if i == 30:
+				break
+				#pass
 
 	#Evalua si el nodo pasado por parametro es igual al nodo meta
 	def es_nodo_meta(self,nodo):
@@ -65,6 +65,7 @@ class Costo_uniforme(Algoritmo):
 			return False
 		#si es igual a algun nodo padre 
 		elif nodo_a_verificar.x == nodo_padre.x and nodo_a_verificar.y == nodo_padre.y and nodo_a_verificar.flor == nodo_padre.flor:
+			print nodo_a_verificar.flor,"==", nodo_padre.flor
 			print "ya se ha expandido no expande"
 			return True
 		else:
