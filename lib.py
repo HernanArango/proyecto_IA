@@ -10,6 +10,7 @@ from Preferente_profundidad import *
 from Costo_uniforme import *
 from Avara import *
 from A import *
+from algoritmo import *
 
 class Interfaz:
 
@@ -95,6 +96,8 @@ class Interfaz:
 				y=y+60
 				x=0
 
+			self.nodo_inicial.heuristica=self.calcular_heuristica(self.nodo_inicial,self.nodo_meta)
+			self.nodo_inicial.heuristica_peso=self.nodo_inicial.heuristica+self.nodo_inicial.peso
 			button = pygame.Rect(640,200,100,30)
 			button2 = pygame.Rect(750,200,100,30)
 			button3 = pygame.Rect(860,200,100,30)
@@ -170,8 +173,10 @@ class Interfaz:
 							
 
 					pygame.display.update()
-		except:
-			print "falle"
+		
+		except Exception as e: 
+			print e
+			
 	
 	#Recibe el tipo de algoritmo que desea ejecutar el usuario, y retorna la solucion
 	def calcular(self,tipo_algoritmo):
@@ -357,3 +362,8 @@ class Interfaz:
 		self.reset_map(ventana)
 		self.menu_principal(ventana,b_1,b_2,b_3,b_4,b_5,b_6,b_7)
 
+	def calcular_heuristica(self,nodo_base,nodo_meta):
+		x=abs(nodo_base.x-nodo_meta.x)
+		
+		y=abs(nodo_base.y-nodo_meta.y)
+		return x+y

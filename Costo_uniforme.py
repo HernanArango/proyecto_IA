@@ -46,7 +46,8 @@ class Costo_uniforme(Algoritmo):
 						
 
 			i = i + 1		
-			if i == 1000:
+			print i
+			if i == 120:
 				#break
 				pass
 

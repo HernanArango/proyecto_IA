@@ -97,7 +97,7 @@ class Algoritmo:
 	def mostrar_lista(self):
 		print "--------------------------------------"
 		for x in self.lista_nodos:
-			print "elementos lista nodo ",x.x," ",x.y
+			print "elementos lista nodo ",x.x," ",x.y," g(n)",x.peso," h(n)",x.heuristica," f(n)",x.heuristica_peso," flor",x.flor
 
 	#Almacena la profundidad del arbol
 	def save_profundidad_arbol(self,profundidad_nodo):

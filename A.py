@@ -22,8 +22,7 @@ class A(Algoritmo):
 				self.resumen(index)
 				break
 
-			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y
-			
+			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y," g(n)",self.lista_nodos[index].peso," h(n)",self.lista_nodos[index].heuristica," f(n)",self.lista_nodos[index].heuristica_peso
 			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
 				hijos = self.expandirNodo(self.lista_nodos[index],self.nodo_meta)			
 			else:
@@ -45,7 +44,7 @@ class A(Algoritmo):
 						
 
 			i = i + 1		
-			if i == 5:
+			if i == 50:
 				#break
 				pass
 

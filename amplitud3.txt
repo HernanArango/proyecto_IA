@@ -1,0 +1,3863 @@
+nodo inicial 3   2
+nodo meta 7   1
+--------------------------------------
+elementos lista nodo  3   2  g(n) 0  h(n) 5  f(n) 5  flor False
+nodo a expandir 3   2
+expande es el nodo raiz
+numero de hijos expandidos  4
+--------------------------------------
+elementos lista nodo  3   1  g(n) 1  h(n) 4  f(n) 5  flor False
+elementos lista nodo  3   3  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  4   2  g(n) 1  h(n) 4  f(n) 5  flor False
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+1
+nodo a expandir 3   1
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  4   2  g(n) 1  h(n) 4  f(n) 5  flor False
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   2  g(n) 2  h(n) 5  f(n) 7  flor False
+2
+nodo a expandir 4   2
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   2  g(n) 2  h(n) 5  f(n) 7  flor False
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+elementos lista nodo  3   2  g(n) 2  h(n) 5  f(n) 7  flor False
+3
+nodo a expandir 3   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   3  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+elementos lista nodo  3   2  g(n) 2  h(n) 5  f(n) 7  flor False
+4
+nodo a expandir 3   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   3  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+5
+nodo a expandir 3   3
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   2  g(n) 8  h(n) 6  f(n) 14  flor False
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   4  g(n) 9  h(n) 7  f(n) 16  flor False
+6
+nodo a expandir 2   2
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   0  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   4  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+7
+nodo a expandir 3   0
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  5   2  g(n) 9  h(n) 3  f(n) 12  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   4  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+8
+nodo a expandir 5   2
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  3   4  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+9
+nodo a expandir 3   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   4  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+10
+nodo a expandir 3   4
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   2  g(n) 9  h(n) 5  f(n) 14  flor False
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 10  h(n) 8  f(n) 18  flor False
+11
+nodo a expandir 3   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  1   2  g(n) 9  h(n) 7  f(n) 16  flor False
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 10  h(n) 8  f(n) 18  flor False
+12
+nodo a expandir 1   2
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   1  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  1   3  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+13
+nodo a expandir 3   1
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  4   2  g(n) 10  h(n) 4  f(n) 14  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  1   3  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+14
+nodo a expandir 4   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  1   3  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+15
+nodo a expandir 3   5
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 10  h(n) 8  f(n) 18  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   4  g(n) 11  h(n) 7  f(n) 18  flor False
+elementos lista nodo  2   5  g(n) 11  h(n) 9  f(n) 20  flor False
+16
+nodo a expandir 1   3
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   4  g(n) 11  h(n) 7  f(n) 18  flor False
+elementos lista nodo  2   5  g(n) 11  h(n) 9  f(n) 20  flor False
+elementos lista nodo  1   2  g(n) 11  h(n) 7  f(n) 18  flor False
+elementos lista nodo  1   4  g(n) 11  h(n) 9  f(n) 20  flor False
+17
+nodo a expandir 3   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 11  h(n) 9  f(n) 20  flor False
+elementos lista nodo  1   2  g(n) 11  h(n) 7  f(n) 18  flor False
+elementos lista nodo  1   4  g(n) 11  h(n) 9  f(n) 20  flor False
+18
+nodo a expandir 2   5
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   2  g(n) 11  h(n) 7  f(n) 18  flor False
+elementos lista nodo  1   4  g(n) 11  h(n) 9  f(n) 20  flor False
+elementos lista nodo  3   5  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+19
+nodo a expandir 1   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 11  h(n) 9  f(n) 20  flor False
+elementos lista nodo  3   5  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+20
+nodo a expandir 1   4
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+elementos lista nodo  1   3  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+21
+nodo a expandir 3   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+elementos lista nodo  1   3  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+22
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 12  h(n) 8  f(n) 20  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+23
+nodo a expandir 1   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 12  h(n) 10  f(n) 22  flor False
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+24
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+25
+nodo a expandir 1   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+26
+nodo a expandir 2   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+27
+nodo a expandir 1   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 13  h(n) 9  f(n) 22  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+28
+nodo a expandir 2   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+29
+nodo a expandir 1   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+30
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+31
+nodo a expandir 3   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+32
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+33
+nodo a expandir 1   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+34
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 14  h(n) 8  f(n) 22  flor True
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+35
+nodo a expandir 3   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 14  h(n) 10  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+36
+nodo a expandir 1   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+37
+nodo a expandir 1   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+38
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+39
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+40
+nodo a expandir 2   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+41
+nodo a expandir 3   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+42
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+43
+nodo a expandir 1   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+44
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   2  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+45
+nodo a expandir 1   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+46
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+47
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+48
+nodo a expandir 2   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   4  g(n) 15  h(n) 7  f(n) 22  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+49
+nodo a expandir 3   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+50
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   4  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+51
+nodo a expandir 1   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   5  g(n) 15  h(n) 9  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+52
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+53
+nodo a expandir 1   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+54
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+55
+nodo a expandir 3   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+56
+nodo a expandir 1   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+57
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+58
+nodo a expandir 3   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+59
+nodo a expandir 1   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+60
+nodo a expandir 1   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+61
+nodo a expandir 1   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+62
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+63
+nodo a expandir 3   5
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+64
+nodo a expandir 1   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   3  g(n) 16  h(n) 6  f(n) 22  flor True
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+65
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   5  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+66
+nodo a expandir 3   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   3  g(n) 16  h(n) 8  f(n) 24  flor True
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+67
+nodo a expandir 1   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  1   5  g(n) 16  h(n) 10  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+68
+nodo a expandir 1   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   0  g(n) 17  h(n) 4  f(n) 21  flor False
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+69
+nodo a expandir 4   0
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  6   2  g(n) 17  h(n) 2  f(n) 19  flor False
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+70
+nodo a expandir 6   2
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+71
+nodo a expandir 3   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  2   2  g(n) 17  h(n) 6  f(n) 23  flor False
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+72
+nodo a expandir 2   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+73
+nodo a expandir 3   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  4
+--------------------------------------
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+74
+nodo a expandir 1   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+75
+nodo a expandir 3   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+76
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+77
+nodo a expandir 3   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  4
+--------------------------------------
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+78
+nodo a expandir 3   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+79
+nodo a expandir 1   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+80
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+81
+nodo a expandir 3   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  4
+--------------------------------------
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+82
+nodo a expandir 1   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+83
+nodo a expandir 3   4
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   5  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+84
+nodo a expandir 2   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   2  g(n) 17  h(n) 5  f(n) 22  flor True
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+85
+nodo a expandir 3   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  4
+--------------------------------------
+elementos lista nodo  3   4  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+86
+nodo a expandir 3   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  1   2  g(n) 17  h(n) 7  f(n) 24  flor True
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+87
+nodo a expandir 1   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  1   4  g(n) 17  h(n) 9  f(n) 26  flor True
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+88
+nodo a expandir 1   4
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  5   0  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+89
+nodo a expandir 5   0
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   0  g(n) 18  h(n) 5  f(n) 23  flor True
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+90
+nodo a expandir 3   0
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  7   2  g(n) 18  h(n) 1  f(n) 19  flor True
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+91
+nodo a expandir 7   2
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  5   2  g(n) 18  h(n) 3  f(n) 21  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+92
+nodo a expandir 5   2
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+93
+nodo a expandir 3   1
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+94
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+95
+nodo a expandir 4   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+96
+nodo a expandir 2   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+97
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+98
+nodo a expandir 3   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+99
+nodo a expandir 3   1
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+100
+nodo a expandir 3   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+101
+nodo a expandir 4   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+102
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+103
+nodo a expandir 1   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+104
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+105
+nodo a expandir 3   1
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+106
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+107
+nodo a expandir 4   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+108
+nodo a expandir 2   2
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+109
+nodo a expandir 3   3
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   5  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+110
+nodo a expandir 3   5
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  3   1  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+111
+nodo a expandir 3   1
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   3  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+112
+nodo a expandir 3   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  4   2  g(n) 18  h(n) 4  f(n) 22  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+113
+nodo a expandir 4   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+114
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  1   3  g(n) 18  h(n) 8  f(n) 26  flor True
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+115
+nodo a expandir 1   3
+ciclo
+ya se ha expandido no expande
+no expande
+--------------------------------------
+elementos lista nodo  2   2  g(n) 18  h(n) 6  f(n) 24  flor True
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+116
+nodo a expandir 2   2
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  6   0  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+117
+nodo a expandir 6   0
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  7   0  g(n) 20  h(n) 1  f(n) 21  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+118
+nodo a expandir 4   0
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  3   1  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  7   0  g(n) 20  h(n) 1  f(n) 21  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+119
+nodo a expandir 3   1
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  4   0  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  7   0  g(n) 20  h(n) 1  f(n) 21  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+elementos lista nodo  3   2  g(n) 20  h(n) 5  f(n) 25  flor True
+120
+nodo a expandir 4   0
+ciclo
+ciclo
+ciclo
+ciclo
+ciclo
+expande es el nodo raiz
+numero de hijos expandidos  2
+--------------------------------------
+elementos lista nodo  7   1  g(n) 19  h(n) 0  f(n) 19  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  6   2  g(n) 19  h(n) 2  f(n) 21  flor True
+elementos lista nodo  4   2  g(n) 19  h(n) 4  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   4  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   0  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  5   2  g(n) 19  h(n) 3  f(n) 22  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  3   2  g(n) 19  h(n) 5  f(n) 24  flor True
+elementos lista nodo  1   2  g(n) 19  h(n) 7  f(n) 26  flor True
+elementos lista nodo  7   0  g(n) 20  h(n) 1  f(n) 21  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+elementos lista nodo  3   2  g(n) 20  h(n) 5  f(n) 25  flor True
+elementos lista nodo  5   0  g(n) 20  h(n) 3  f(n) 23  flor True
+elementos lista nodo  3   0  g(n) 20  h(n) 5  f(n) 25  flor True
+121
+----------------------------------------------------------------
+el nodo meta esta  7   1
+el peso del camino es 19
+Se expandieron un total de 165  nodos
+El arbol tiene una profundidad de 12
+Tiempo de ejecucion  0.011892080307
