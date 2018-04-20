@@ -23,6 +23,7 @@ class Costo_uniforme(Algoritmo):
 				self.resumen(index)
 				break
 
+
 			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y," g(n)",self.lista_nodos[index].peso," h(n)",self.lista_nodos[index].heuristica," f(n)",self.lista_nodos[index].heuristica_peso," flor",self.lista_nodos[index].flor
 			
 			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
@@ -48,8 +49,8 @@ class Costo_uniforme(Algoritmo):
 			i = i + 1		
 			print i
 			if i == 60:
-				break
-				#pass
+				#break
+				pass
 
 	#Evalua si el nodo pasado por parametro es igual al nodo meta
 	def es_nodo_meta(self,nodo):
@@ -85,9 +86,4 @@ class Costo_uniforme(Algoritmo):
 				flag = nodo
 
 		#retornamos el index de dicho nodo
-		return self.lista_nodos.index(flag)
-
-
-
-
-		
+		return self.lista_nodos.index(flag)	
