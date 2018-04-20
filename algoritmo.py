@@ -23,7 +23,9 @@ class Algoritmo:
 			n.y=y
 			n.padre=nodo_padre
 			n.profundidad = nodo_padre.profundidad + 1
+
 			self.save_profundidad_arbol(n.profundidad)
+
 			if(nodo_padre.flor==False and self.tiene_flor==False):
 				n.peso=self.peso_casilla(x,y)+peso_anterior
 				n.flor=False
@@ -36,6 +38,7 @@ class Algoritmo:
 				n.flor=True
 
 			print "tiene flor ", n.flor
+			
 			n.heuristica=self.calcular_heuristica(n,nodo_meta)
 			n.heuristica_peso=n.peso+n.heuristica
 			return n
@@ -93,9 +96,10 @@ class Algoritmo:
 	#De forma recursiva, almacena en un array los nodos padre desde el nodo meta, hasta el nodo raiz
 	#encontrando asi, el camino que recorrio
 	def camino_destino(self,nodo_final,nodo_raiz,camino):
-		if nodo_final.x==nodo_raiz.x and nodo_final.y==nodo_raiz.y:
-			camino.append(nodo_final)
-			return
+		
+		if isinstance(nodo_final, int) is True:
+			print "expande es el nodo raiz"
+			return False
 		else:
 			camino.append(nodo_final)
 			self.camino_destino(nodo_final.padre,nodo_raiz,camino)
