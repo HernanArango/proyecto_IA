@@ -23,7 +23,7 @@ class Costo_uniforme(Algoritmo):
 				self.resumen(index)
 				break
 
-			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y
+			print "nodo a expandir",self.lista_nodos[index].x," ",self.lista_nodos[index].y," g(n)",self.lista_nodos[index].peso," h(n)",self.lista_nodos[index].heuristica," f(n)",self.lista_nodos[index].heuristica_peso," flor",self.lista_nodos[index].flor
 			
 			if self.nodo_fue_expandido(self.lista_nodos[index].padre,self.lista_nodos[index]) == False:
 				hijos = self.expandirNodo(self.lista_nodos[index],self.nodo_meta)
@@ -60,6 +60,7 @@ class Costo_uniforme(Algoritmo):
 
 	#evita ciclos
 	def nodo_fue_expandido(self,nodo_padre,nodo_a_verificar):
+		#print "inicio arbol"
 		#llego a la raiz
 		if isinstance(nodo_padre, int) is True:
 			print "expande es el nodo raiz"
@@ -70,8 +71,10 @@ class Costo_uniforme(Algoritmo):
 			print "ya se ha expandido no expande"
 			return True
 		else:
-			print "ciclo"
+			#print "ciclo"
+			print nodo_padre.x,"-",nodo_padre.y
 			return self.nodo_fue_expandido(nodo_padre.padre,nodo_a_verificar)
+		print "fin arbol"
 
 	#En la lista de nodos expandidos busca cual es el nodo con menor g(n)
 	def index_nodo_a_expandir(self):
