@@ -55,6 +55,8 @@ class Algoritmo:
 		if int(self.entrada[nodo.y][nodo.x]) == 3:
 			self.tiene_flor = True
 			nodo.flor = True
+			#actualizamos el nodo actual en la lista no funciona por referencia
+			self.lista_nodos[self.index_nodo_a_expandir()].flor=True
 			print "tomo flor"
 		
 		#expArriba
