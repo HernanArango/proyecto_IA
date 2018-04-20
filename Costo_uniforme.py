@@ -47,9 +47,9 @@ class Costo_uniforme(Algoritmo):
 
 			i = i + 1		
 			print i
-			if i == 120:
-				#break
-				pass
+			if i == 60:
+				break
+				#pass
 
 	#Evalua si el nodo pasado por parametro es igual al nodo meta
 	def es_nodo_meta(self,nodo):
