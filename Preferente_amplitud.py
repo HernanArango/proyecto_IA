@@ -8,6 +8,7 @@ class Preferente_amplitud(Algoritmo):
 		self.entrada = entrada
 		self.nodo_inicial = nodo_inicial
 		self.nodo_meta = nodo_meta
+		self.name="amplitud"
 		self.lista_nodos.append(self.nodo_inicial)
 		print "nodo inicial",self.nodo_inicial.x," ",self.nodo_inicial.y
 		print "nodo meta",self.nodo_meta.x," ",self.nodo_meta.y

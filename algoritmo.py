@@ -59,8 +59,9 @@ class Algoritmo:
 			self.tiene_flor = True
 			nodo.flor = True
 			#actualizamos el nodo actual en la lista no funciona por referencia
-			self.lista_nodos[self.index_nodo_a_expandir()].flor=True
-			print "tomo flor"
+			if self.name != "amplitud":
+				self.lista_nodos[self.index_nodo_a_expandir()].flor=True
+				print "tomo flor"
 		
 		#expArriba
 		if(self.expansion_disponible(nodo.x,nodo.y-1)):
